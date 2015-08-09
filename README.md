@@ -12,3 +12,6 @@ but there was more work involved than I expected. I might add a few more torrent
 - A POST request is made to upload the torrent it uses the cookie(PHPSESSIONID) from the original get request
 to ensure we don't get a new captcha upon completion of the POST request
 - The script then checks the response html to a string to confirm the torrent was either added successfully, already exists or if there was an error.
+
+# Note
+Tested on ubuntu 14.04 with **python 3.4**
